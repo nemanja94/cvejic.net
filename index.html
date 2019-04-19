@@ -10,7 +10,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Cvejic</title>
     <!-- Moj CSS -->
     <link rel="stylesheet" href="css/stylesheet.css">
@@ -19,24 +19,27 @@
 <body>
 
     <!-- navbar -->
-    <header class="scrollspy section" style="top: 0;" id="naslovna">
-        <nav class="nav-wraper blue sticky-nav">
+    <header class="scrollspy" id="naslovna">
+        <nav class="nav-wraper blue">
             <div class="container">
                 <a href="#naslovna" class="brand-logo">Cvejić</a>
-                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                <!-- <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
-                </a>
+                </a> -->
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#naslovna">Naslovna</a></li>
                     <li><a href="#galerija">Galerija</a></li>
                     <li><a href="#usluge">Čime se bavimo</a></li>
                     <li><a href="#kontakt">Kontaktirajte nas</a></li>
                 </ul>
-                <ul class="sidenav grey lighten-2" id="mobile-menu">
-                    <li><a href="">Naslovna</a></li>
-                    <li><a href="">Galerija</a></li>
-                    <li><a href="">Čime se bavimo</a></li>
-                    <li><a href="">Kontaktirajte nas</a></li>
+
+                <a class='dropdown-trigger btn right hide-on-med-and-up' data-target='dropdown1'>Drop Me!</a>
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#naslovna">Naslovna</a></li>
+                    <li><a href="#galerija">Galerija</a></li>
+                    <li><a href="#usluge">Čime se bavimo</a></li>
+                    <li><a href="#kontakt">Kontaktirajte nas</a></li>
                 </ul>
             </div>
         </nav>
@@ -232,10 +235,12 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.sidenav').sidenav();
+            $('.sidenav').sidenav({
+                closeOnClick: true
+            });
             $('.materialboxed').materialbox();
             $('.parallax').parallax();
             $('.tabs').tabs();
@@ -244,6 +249,7 @@
             });
             $('.tooltiped').tooltip();
             $('.scrollspy').scrollSpy();
+            $('.dropdown-trigger').dropdown();
         });
     </script>
 </body>
