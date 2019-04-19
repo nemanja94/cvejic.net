@@ -196,20 +196,23 @@
         </div>
     </section>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-
-    <div class="fixed-action-btn verical center" style="bottom: 55px;">
-        <a class="btn-floating btn-large red">Meni</a>
-        <ul>
-            <li><a class="btn red" href="#naslovna">Naslovna</a></li>
-            <li><a class="btn red" href="#galerija">Galerija</a></li>
-            <li><a class="btn red" href="#usluge">Čime se bavimo</a></li>
-            <li><a class="btn red" href="#kontakt">Kontaktirajte nas</a></li>
-        </ul>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red sidenav-trigger" data-target="mobile-menu">
+            <i class="large material-icons">menu</i>
+        </a>
     </div>
+
+    <!-- <div class="fixed-action-btn">
+        <a class="btn-floating btn-large blue">
+            <i class="large material-icons">menu</i>
+        </a>
+        <ul>
+            <li><a class="btn pink" href="#naslovna">N</a></li>
+            <li><a class="btn pink" href="#galerija">G</a></li>
+            <li><a class="btn pink" href="#usluge">U</a></li>
+            <li><a class="btn pink" href="#kontakt">K</a></li>
+        </ul>
+    </div> -->
 
     <!-- footer -->
     <footer class="page-footer grey darken-3 z-depth-5">
@@ -270,6 +273,7 @@
             });
             $('.tooltiped').tooltip();
             $('.scrollspy').scrollSpy();
+            $('.fixed-action-btn').floatingActionButton();
         });
     </script>
 </body>
