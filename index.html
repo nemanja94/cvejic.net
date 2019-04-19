@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <title>Cvejic</title>
     <style>
+        .sticky-nav {
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+
         @media only screen and (min-width: 320px) {
             .parallax-container {
                 height: 150px;
@@ -99,18 +105,18 @@
 <body>
 
     <!-- navbar -->
-    <header>
-        <nav class="nav-wraper blue">
+    <header class="scrollspy" id="naslovna">
+        <nav class="nav-wraper blue sticky-nav">
             <div class="container">
-                <a href="" class="brand-logo"></a>Cvejic</a>
+                <a href="#naslovna" class="brand-logo"></a>Cvejic</a>
                 <a href="" class="sidenav-trigger" data-target="mobile-menu">
                     <i class="material-icons">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="#naslovna">Naslovna</a></li>
                     <li><a href="#galerija">Galerija</a></li>
-                    <li><a href="#oNama">O nama</a></li>
-                    <li><a href="#gdeSmo">Gde smo</a></li>
+                    <li><a href="#usluge">Čime se bavimo</a></li>
+                    <li><a href="#kontakt">Kontaktirajte nas</a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#">Naslovna</a></li>
@@ -167,7 +173,7 @@
     </div>
 
     <!-- services / tabs -->
-    <section class="container section" id="services">
+    <section class="container section scrollspy" id="usluge">
         <div class="row">
             <div class="col s12 l4">
                 <h2 class="indigo-text text-darken-4">Čime se bavimo</h2>
@@ -219,7 +225,7 @@
     </div>
 
     <!-- contact form -->
-    <section class="section container" id="contact">
+    <section class="section container scrollspy" id="kontakt">
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="indigo-text text-darken-4">Get i touch</h2>
