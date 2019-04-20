@@ -5,15 +5,19 @@
         }
 
         nav ul li a:hover {
-            background-color: #e2e2e2;
+            background-color: #0E3655;;
         }
 
         nav ul li a:hover {
-            color: #1a237e; 
+            color: #e2e2e2; 
+        }
+
+        nav ul li a {
+            color: #0E3655;
         }
 
         #mobile-menu > li > a{
-            color: #1a237e;
+            color: #0E3655;;
         }
 
         header {
