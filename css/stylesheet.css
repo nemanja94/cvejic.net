@@ -39,7 +39,6 @@
             padding: 1%;
             margin-top: 4%;
             margin-bottom: 4%;
-            /* border-radius: 5px; */
         }
 
         #kontakt > div > div > ul > li > a {
@@ -61,15 +60,17 @@
             background-color: #0E3655;
         }
 
-        #usluga1-pr {
-            border: 1px solid #0E3655;
-            border-radius: 5px;
-        }
-
-        #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
+        #usluga1-pr, #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
+            text-align: justify;
             display: none;
             border: 1px solid #0E3655;
             border-radius: 5px;
+            padding: 1%;
+            margin: 2%;
+        }
+
+        #usluga1-pr > p, #usluga2-pr > p, #usluga3-pr > p, #usluga4-pr > p, #usluga5-pr > p, #usluga6-pr > p, #usluga7-pr > p, #usluga8-pr > p {
+            padding: 2%;
         }
 
         /* .tabs .tab a:focus,
