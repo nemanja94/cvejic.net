@@ -347,9 +347,9 @@
             $('#usluga1').click(function () {
 
                 $('#usluga1-pr').show();
-                $('#usluga1').css("background-color", "#0E3655");
-                $('#usluga1').css("color", "#e2e2e2");
-                $('#usluga1.a').css("border-radius", "5px");
+                // $('#usluga1').css("background-color", "#0E3655");
+                // $('#usluga1').css("color", "#e2e2e2");
+                // $('#usluga1.a').css("border-radius", "5px");
 
                 $('#usluga2-pr').hide();
                 $('#usluga2').css("background-color", "#e2e2e2");
@@ -647,12 +647,13 @@
         });
 
         $(window).scroll(function () {
-            if ($(this).scrollTop() < 60) {
+            if ($("this").scrollTop() < 60) {
                 $('.bottomMenu').hide();
             }
             else {
                 $('.bottomMenu').show();
             }
+
         });
     </script>
 </body>

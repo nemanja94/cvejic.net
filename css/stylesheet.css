@@ -61,7 +61,12 @@
             background-color: #0E3655;
         }
 
-        #usluga1-pr, #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
+        #usluga1-pr {
+            border: 1px solid #0E3655;
+            border-radius: 5px;
+        }
+
+        #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
             display: none;
             border: 1px solid #0E3655;
             border-radius: 5px;
