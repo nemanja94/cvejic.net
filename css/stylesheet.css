@@ -4,12 +4,16 @@
             z-index: 1;
         }
 
-        nav ul li:hover {
+        nav ul li a:hover {
             background-color: #e2e2e2;
         }
 
         nav ul li a:hover {
             color: #1a237e; 
+        }
+
+        #mobile-menu > li > a{
+            color: #1a237e;
         }
 
         header {
