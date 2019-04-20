@@ -27,6 +27,31 @@
             min-height: 800px;
         }
 
+        #kontakt > div > div > ul > li > a:hover {
+            background-color: #0E3655;
+            color: #e2e2e2;
+            border: 1px solid #0E3655;
+            /* border-radius: 5px; */
+        }
+
+        #kontakt > div > div > ul > li {
+            color: #0E3655;
+            padding: 1%;
+            margin-top: 4%;
+            margin-bottom: 4%;
+            /* border-radius: 5px; */
+        }
+
+        #kontakt > div > div > ul > li > a {
+            color: #0E3655;
+            padding: 3%;
+        }
+
+        #kontakt > div > div > ul > li > a:hover {
+            background-color: #0E3655;
+            color: #e2e2e2;
+        }
+
         .section {
             padding-top: 4vw;
             padding-bottom: 4vw;
@@ -34,6 +59,12 @@
 
         .tabs .indicator {
             background-color: #0E3655;
+        }
+
+        #usluga1-pr, #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
+            display: none;
+            border: 1px solid #0E3655;
+            border-radius: 5px;
         }
 
         /* .tabs .tab a:focus,
