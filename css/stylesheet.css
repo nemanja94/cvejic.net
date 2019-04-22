@@ -27,28 +27,10 @@
             min-height: 800px;
         }
 
-        #kontakt > div > div > ul > li > a:hover {
-            background-color: #0E3655;
-            color: #e2e2e2;
-            border: 1px solid #0E3655;
-            /* border-radius: 5px; */
-        }
-
         #kontakt > div > div > ul > li {
-            color: #0E3655;
             padding: 1%;
             margin-top: 4%;
             margin-bottom: 4%;
-        }
-
-        #kontakt > div > div > ul > li > a {
-            color: #0E3655;
-            padding: 3%;
-        }
-
-        #kontakt > div > div > ul > li > a:hover {
-            background-color: #0E3655;
-            color: #e2e2e2;
         }
 
         .section {
@@ -60,7 +42,26 @@
             background-color: #0E3655;
         }
 
-        #usluga1-pr, #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
+        #usluga1 {
+            background-color: #0E3655;
+            color: #e2e2e2;
+            padding: 3%;
+        }
+
+        #usluga2, #usluga3, #usluga4, #usluga5, #usluga6, #usluga7, #usluga8 {
+            background-color: #e2e2e2;
+            color: #0E3655;
+            padding: 3%;
+        }
+        #usluga1-pr {
+            text-align: justify;
+                    border: 1px solid #0E3655;
+                    border-radius: 5px;
+                    padding: 1%;
+                    margin: 2%;
+        }
+
+        #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
             text-align: justify;
             display: none;
             border: 1px solid #0E3655;
