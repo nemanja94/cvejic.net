@@ -161,6 +161,14 @@
             }
         }
 
+        @media screen and (min-width: 1300px) {
+            header {
+                min-height: 500px;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
         @media only screen and (min-width: 1366px) {
             .parallax-container {
                 height: 300px;
@@ -171,12 +179,21 @@
                 background-position: center;
             }
         }
-
-        @media screen and (min-width: 1300px) {
-            header {
-                min-height: 500px;
-                background-size: cover;
-                background-position: center;
+        
+        @media only screen and (min-width: 1500px) {
+            .parallax-container {
+                height: 400px;
             }
         }
-        
+
+        @media only screen and (min-width: 1920px) {
+            .parallax-container {
+                height: 400px;
+            }
+        }
+
+        @media only screen and (min-width: 2560pz) {
+            .parallax-container {
+                height: 400px;
+            }
+        }
