@@ -73,7 +73,7 @@
         }
         #usluga1-pr {
             text-align: justify;
-                    border: 1px solid #0E3655;
+                    border: #0E3655;
                     border-radius: 5px;
                     padding: 1%;
                     margin: 2%;
@@ -82,7 +82,7 @@
         #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
             text-align: justify;
             display: none;
-            border: 1px solid #0E3655;
+            border: #0E3655;
             border-radius: 5px;
             padding: 1%;
             margin: 2%;
