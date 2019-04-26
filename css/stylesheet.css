@@ -182,18 +182,18 @@
         
         @media only screen and (min-width: 1500px) {
             .parallax-container {
-                height: 400px;
+                height: 340px;
             }
         }
 
         @media only screen and (min-width: 1920px) {
             .parallax-container {
-                height: 400px;
+                height: 340px;
             }
         }
 
         @media only screen and (min-width: 2560pz) {
             .parallax-container {
-                height: 400px;
+                height: 340px;
             }
         }
