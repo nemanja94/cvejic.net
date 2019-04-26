@@ -73,10 +73,11 @@
         }
         #usluga1-pr {
             text-align: justify;
-                    border: #0E3655;
-                    border-radius: 5px;
-                    padding: 1%;
-                    margin: 2%;
+            border: #0E3655;
+            border-radius: 5px;
+            padding: 1%;
+            margin: 2%;
+            font-size: 115%;
         }
 
         #usluga2-pr, #usluga3-pr, #usluga4-pr, #usluga5-pr, #usluga6-pr, #usluga7-pr, #usluga8-pr {
@@ -86,6 +87,7 @@
             border-radius: 5px;
             padding: 1%;
             margin: 2%;
+            font-size: 115%;
         }
 
         #usluga1-pr > p, #usluga2-pr > p, #usluga3-pr > p, #usluga4-pr > p, #usluga5-pr > p, #usluga6-pr > p, #usluga7-pr > p, #usluga8-pr > p {
