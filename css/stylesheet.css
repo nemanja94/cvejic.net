@@ -29,9 +29,9 @@
         }
 
         header {
-            background: url(../slike/background.jpg);
+            background: url(../slike/moguca-pozadina.jpg);
             background-size: cover;
-            background-position: center;
+            background-position: left;
             min-height: 800px;
         }
 
@@ -91,6 +91,11 @@
             .parallax-container {
                 height: 150px;
             }
+            header {
+                min-height: 250px;
+                background-size: cover;
+                background-position: center;
+            }
         }
 
         @media only screen and (min-width: 360px) {
@@ -133,6 +138,11 @@
             .parallax-container {
                 height: 280px;
             }
+            header {
+                min-height: 500px;
+                background-size: cover;
+                background-position: center;
+            }
         }
 
         @media only screen and (min-width: 811px) {
@@ -145,10 +155,18 @@
             .parallax-container {
                 height: 300px;
             }
-        }
-
-        @media screen and (max-width: 670px) {
             header {
                 min-height: 500px;
+                background-size: cover;
+                background-position: center;
             }
         }
+
+        @media screen and (min-width: 1300px) {
+            header {
+                min-height: 500px;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+        
