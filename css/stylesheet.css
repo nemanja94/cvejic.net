@@ -5,19 +5,27 @@
         }
 
         nav ul li a:hover {
-            background-color: #0E3655;;
+            background-color: #e2e2e2;;
         }
 
         nav ul li a:hover {
-            color: #e2e2e2; 
+            color: #0E3655; 
         }
 
         nav ul li a {
-            color: #0E3655;
+            color: #e2e2e2;
         }
 
         #mobile-menu > li > a{
-            color: #0E3655;;
+            color: #0E3655;
+        }
+
+        #logo {
+            margin-top: 5%;
+        }
+
+        #mob-logo {
+            margin-bottom: 6%;
         }
 
         header {
@@ -106,6 +114,12 @@
         @media only screen and (min-width: 414px) {
             .parallax-container {
                 height: 160px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            #logo {
+                margin-top: 3%;
             }
         }
 
