@@ -28,7 +28,7 @@
             margin-bottom: 6%;
         }
 
-        header {
+        #naslovna {
             background: url(../slike/moguca-pozadina.jpg);
             background-size: cover;
             background-position: left;
@@ -111,7 +111,7 @@
             .parallax-container {
                 height: 150px;
             }
-            header {
+            #naslovna {
                 min-height: 250px;
                 background-size: cover;
                 background-position: center;
@@ -158,7 +158,7 @@
             .parallax-container {
                 height: 280px;
             }
-            header {
+            #naslovna {
                 min-height: 500px;
                 background-size: cover;
                 background-position: center;
@@ -172,7 +172,7 @@
         }
 
         @media screen and (min-width: 1300px) {
-            header {
+            #naslovna {
                 min-height: 500px;
                 background-size: cover;
                 background-position: center;
@@ -183,7 +183,7 @@
             .parallax-container {
                 height: 300px;
             }
-            header {
+            #naslovna {
                 min-height: 500px;
                 background-size: cover;
                 background-position: center;
