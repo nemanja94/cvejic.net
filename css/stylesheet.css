@@ -102,10 +102,12 @@
             padding: 2%;
         }
 
-        /* .tabs .tab a:focus,
-        .tabs .tab a:focus.active { 
-            background: #e2e2e2;
-        } */
+        #malito,
+        #malito:active,
+        #malito:hover,
+        #malito:visited {
+            color: #e2e2e2;
+        }
 
         @media only screen and (min-width: 320px) {
             .parallax-container {

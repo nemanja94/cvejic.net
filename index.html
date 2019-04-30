@@ -32,6 +32,7 @@
                         <li><a href="galerija.html">Galerija</a></li>
                         <li><a href="#usluge">Čime se bavimo</a></li>
                         <li><a href="#kontakt">Usluge</a></li>
+                        <li><a href="#futer">Kontakt</a></li>
                     </ul>
                     <ul class="sidenav grey lighten-2" id="mobile-menu">
                         <li>
@@ -43,7 +44,8 @@
                         <li><a href="#naslovna" class="sidenav-close">Naslovna</a></li>
                         <li><a href="galerija.html" class="sidenav-close">Galerija</a></li>
                         <li><a href="#usluge" class="sidenav-close">Čime se bavimo</a></li>
-                        <li><a href="#kontakt" class="sidenav-close">Kontaktirajte nas</a></li>
+                        <li><a href="#kontakt" class="sidenav-close">Usluge</a></li>
+                        <li><a href="#futer" class="sidenav-close">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
@@ -239,7 +241,9 @@
     </div>
 
     <!-- footer -->
-    <footer class="page-footer grey darken-3 z-depth-5">
+    <!-- Dodati cvejinu sliku i omoguciti da se otovori kao one u galeriji -->
+    <!-- Promeniti svojstva linkova tako da budu uvek #e2e2e2 boje -->
+    <footer class="page-footer grey darken-3 z-depth-5 scrollspy" id="futer">
         <div class="container">
             <div class="row">
                 <div class="col s12 l6">
@@ -253,20 +257,26 @@
                 <div class="col s12 l4 offset-l2">
                     <h5>Povežimo se</h5>
                     <ul>
-                        <!-- <li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
-                        <li><a href="" class="grey-text text-lighten-3">LinkedIn</a></li>
-                        <li><a href="" class="grey-text text-lighten-3">Instagram</a></li> -->
+                        <li><a class="btn-floating btn-small darken-4" style="background: #0E3655;">
+                                <i class="material-icons">person</i>
+                            </a> Neko Cvejić
+                        </li>
+                        <br>
+                        <li><a href="tel:xxxxx" class="btn-floating btn-small darken-4" style="background: #0E3655;">
+                                <i class="material-icons">contact_phone</i>
+                            </a> <a href="tel:xxx" id="malito">Pozovi nas</a>
+                        </li>
+                        <br>
                         <li><a href="#" class="btn-floating btn-small darken-4" style="background: #0E3655;">
-                                <i class="fab fa-instagram"></i>
-                            </a> Instagram</li>
+                                <i class="material-icons">contact_mail</i>
+                            </a> <a href="mailto:someone@example.com?Subject=Hello%20again" id="malito">Pošalji email</a>
+                        </li>
                         <br>
                         <li><a href="#" class="btn-floating btn-small darken-4" style="background: #0E3655;">
                                 <i class="fab fa-facebook"></i>
-                            </a> Facebook</li>
+                            </a> <a href="#" id="malito">Facebook</a>
+                        </li>
                         <br>
-                        <li><a href="#" class="btn-floating btn-small darken-4" style="background: #0E3655;">
-                                <i class="fab fa-linkedin"></i>
-                            </a> LinkedIn</li>
                     </ul>
                 </div>
             </div>
