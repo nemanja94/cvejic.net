@@ -310,15 +310,10 @@ $(document).ready(function () {
         $('#usluga1').css("color", "#0E3655");
 
     });
-    // $('.fixed-action-btn').floatingActionButton();
-    // $('.datepicker').datepicker({
-    //     disableWeekends: true
-    // });
-    // $('.tooltiped').tooltip();
 });
 
 $(window).scroll(function () {
-    if ($("this").scrollTop() < 60) {
+    if ($(this).scrollTop() < 60) {
         $('.bottomMenu').hide();
     }
     else {
